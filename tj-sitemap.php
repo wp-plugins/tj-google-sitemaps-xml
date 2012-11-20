@@ -110,8 +110,10 @@ class TJSitemap {
 	 echo '<table>';
 
 	 foreach ($post_types as $post_type ) {
-	   if( in_array( $post_type, $tj_sitemap_types ) ) $checked = "i CHECKED";
-	   else $checked = "";
+	   if( is_array($tj_sitemap_types) ){
+		if( in_array( $post_type, $tj_sitemap_types ) ) $checked = " CHECKED";
+		else $checked = "";
+	   }
 	   echo '<tr><td><input type="checkbox" value="1" name="tj_'.$post_type.'"'.$checked.'> '. $post_type. '</td></tr>';
 	 }
 

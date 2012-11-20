@@ -4,7 +4,7 @@ Donate link: http://www.techjunkie.com
 Tags: google, sitemap, sitemap.xml
 Requires at least: 3.3
 Tested up to: 3.4
-Stable tag: 1.0
+Stable tag: 1.01
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,6 +30,8 @@ Please check to make sure that:
 
 
 == Changelog ==
+1.01
+-error fix, check to see if array exists
 
 1.0
 -initial version
