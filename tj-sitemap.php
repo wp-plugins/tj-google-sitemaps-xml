@@ -4,7 +4,7 @@ Plugin Name: TJ Google Sitemaps XML
 Plugin URI:  http://techjunkie.com
 Description: Plugin for easily publishing sitemap.xml for Google
 Author: Evan Gower
-Version: 1.00
+Version: 1.01
 Author URI: http://techjunkie.com/
 License: GPL
 */
